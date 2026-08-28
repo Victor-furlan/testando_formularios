@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
-    <style rel="styleheet" href="styles.css"></style>
+    <link rel="stylesheet" href="styles.css"></link>
 </head>
 <body>
-    <h1>Fomulário</h1>
-        <form method="post" type="submit">
-            <div>
-                <label for="input-name">Nome</label>
-                <input id="input-name" type="text" name="nome"/>
-            </div>
+    <h1 class="titulo">Fomulário</h1>
+
+    <form>
+        <input type="text" name="nome" placeholder="nome">
+        <br><br>
+        <input type="text" name="email" placeholder="email">
+        <br><br>
+        <input type="submit" name="enviar">
+    </form>
 
         </form>
     <script src="script.js"></script>
